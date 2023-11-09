@@ -14,6 +14,7 @@ window.onload=()=>{
     if(!height || height<=0 || !weight || weight<= 0)
    {
        result.innerText="Enter valid height or code"
+       
    }
    else
    {
