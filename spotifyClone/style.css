@@ -1,0 +1,58 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Urbanist', sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Urbanist:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat:ital,wght@1,600&family=Urbanist:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat:ital,wght@1,600&family=Urbanist:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Urbanist', sans-serif;
+}
+img{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 55px;
+    color: white;
+    background-color: black;
+    /* border-radius: 5px; */
+    align-items: center;
+
+}
+#brandName{
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.navValues{
+    padding: 0 12px;
+}
+.container{
+    min-height: 85vh;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;;
+}
+#myProgressBar{
+    width: 80vw;
+    
+}
