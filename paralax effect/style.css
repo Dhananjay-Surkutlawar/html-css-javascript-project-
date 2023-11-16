@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,900&display=swap');
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://media.macphun.com/img/uploads/customer/blog/2063/16862170676481a16bb44900.84351516.jpeg?q=85&w=1680");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: grid;
+    place-items:center;
+    text-align: center;
+    background-attachment: fixed;
+}
+h1
+{
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: antiquewhite;
+    text-shadow: #000;
+}
+p{
+    font-size: 20px;
+    color: antiquewhite;
+}
+#section2{
+    background-repeat:no-repeat;
+    background-size: 100% auto;
+    background-image: url("https://bidunart.com/wp-content/uploads/2019/11/Femaleportraits350a-1024x683.jpg");
+}
+#section3{
+    background-repeat:no-repeat;
+    background-size: 100% auto;
+    background-image: url("https://media.macphun.com/img/uploads/customer/blog/2063/16862178156481a457d47d38.09973486.jpeg?q=85&w=1680");
+}
